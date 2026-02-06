@@ -1,0 +1,18 @@
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff; /* White background for the app content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 80vh; /* Ensure it takes up some space */
+}
+
+/* Dark mode adjustments for App container */
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: #3e3e3e; /* Darker background for the app content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+}
